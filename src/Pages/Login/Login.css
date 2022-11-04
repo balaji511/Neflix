@@ -1,0 +1,45 @@
+.LoginContainer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  font-family: roboto;
+}
+.loginLogo {
+  height: 80px;
+  align-self: center;
+}
+.loginCard {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  background-color: rgba(61, 59, 59, 0.75);
+  border-radius: 0px;
+}
+.bgButton {
+  border-width: 0px;
+}
+.inputForm {
+  background-color: rgba(117, 114, 114);
+  outline: 0;
+  border-radius: 0px;
+  border-width: 0px;
+}
+.inputLabel {
+  font-weight: 325;
+}
+
+@media screen and (max-width: 768px) {
+  .loginLogo {
+    height: 100px;
+    align-self: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .LoginContainer {
+    background-image: url('https://res.cloudinary.com/dtjcxf7z5/image/upload/v1650191860/Mini%20Project%20Netflix%20Clone/loginPageBg_q2deus.png');
+  }
+}

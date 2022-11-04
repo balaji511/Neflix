@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.bgButton {
+  border-width: 0px;
+}
+.slickCard {
+  width: 20%;
+  margin: 5px;
+  border-width: 0px;
+}
+@media screen and (max-width: 768px) {
+  .slickCard {
+    width: 45%;
+  }
+}
+.slick-slide > div {
+  margin: 6px;
+}
+.slick-list {
+  margin: 10px;
+}
+.AccountCard {
+  width: 60%;
+  align-self: center;
+}
+@media screen and (max-width: 768px) {
+  .AccountCard {
+    width: 70%;
+  }
+}
+
+/* @media screen and (min-width: 800px) and (max-width: 999px) {
+  .slickImage {
+    height: 200px;
+  } */
+/* } */
